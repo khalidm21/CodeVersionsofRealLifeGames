@@ -84,5 +84,8 @@ G.rule('Story',  ('Phrase',))                             #  09
 G.rule('Story',  ('Phrase', 'and', 'Story'))              #  10
 G.rule('Story',  ('Phrase', 'but', 'Story'))              #  11
 G.rule('Start',  ('Story', '.'))                          #  12
+G.rule('Verb',   ('played',))                                #  05
+G.rule('Verb',   ('ate',))                                #  05
+G.rule('Verb',   ('sliced',))                                #  05
 
 r = Rule("left", ('qw', 'ew'))
